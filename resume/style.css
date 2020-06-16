@@ -24,11 +24,21 @@ BODY{
   margin:0 auto;
 }
 
-strong{
+#title {
+  text-align:center;
   text-transform:uppercase;
-  font-size:1.5em
-  color:#33485e
-  }
+  font-size:1.5em;
+  color:#33485e;
+  font-weight:600;
+  margin-top:20px;
+  margin-bottom:0;
+  margin-right:0;
+  margin-left:0;
+}
+
+.top {
+
+}
 
 .menu {
   margin:0;
@@ -80,8 +90,19 @@ strong{
   margin-left:0;
 }
 
+/*education*/
+
 #degrees {
   margin-top:5px;
+  margin-bottom:0;
+  margin-right:0;
+  margin-left:0;
+}
+
+/*skills*/
+
+#do {
+  margin-top:5px
   margin-bottom:0;
   margin-right:0;
   margin-left:0;
