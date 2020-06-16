@@ -3,7 +3,7 @@
 BODY{
   font-family:'Open Sans', arial, sans-serif;
   font-size:1em;
-  color:#444;
+
   font-weight:400;
 }
 
@@ -36,9 +36,7 @@ BODY{
   margin-left:0;
 }
 
-.top {
-
-}
+/*media links*/
 
 .menu {
   margin:0;
@@ -62,6 +60,8 @@ BODY{
   width:70%;
   min-width:300px;
 }
+
+/*experience*/
 
 .jobtitle {
   font-weight:600;
@@ -102,7 +102,7 @@ BODY{
 /*skills*/
 
 #do {
-  margin-top:5px
+  margin-top:5px;
   margin-bottom:0;
   margin-right:0;
   margin-left:0;
@@ -110,4 +110,12 @@ BODY{
 
 ul{
   font-size:1em;
+}
+
+/*mission statement*/
+.top {
+  width:60%;
+  min-width:300px;
+  margin:0 auto;
+  margin-bottom:30;
 }
