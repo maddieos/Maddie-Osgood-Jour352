@@ -19,6 +19,7 @@
 .picture{
   margin:0 auto;
 }
+
 h1 {
   font-family: Helvetica, sans-serif;
   font-size:24px
@@ -41,4 +42,9 @@ blockquote {
   font-size:20px;
   color: #344994;
   font-style: italic;
+}
+
+h2{
+  font-family: Helvetica, sans-serif;
+  font-size:17px;
 }
