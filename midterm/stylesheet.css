@@ -1,0 +1,66 @@
+#content {
+  width:900px;
+  margin:0 auto;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size:28px;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+p {
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:12px;
+
+}
+
+/*border around pullquote*/
+.boxed{
+  border:1px solid #953f53;
+}
+
+blockquote {
+  color:#953f53;
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:17px;
+}
+
+figcaption {
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:12px;
+}
+
+h3 {
+  font-family: Georgia, serif;
+  font-size: 17px;
+}
+
+h4 {
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+
+h5 {
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+h6{
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:12px;
+}
+
+li {
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:12px;
+}
