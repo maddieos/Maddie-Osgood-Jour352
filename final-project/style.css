@@ -67,7 +67,7 @@
 /*image caption*/
 figcaption {
   color: #d3d3d3;
-  font-family:'Montserrat', sans-serif;
+  font-family:'Lato', sans-serif;
   font-size:.75em;
   display: block;
   margin-left: auto;
@@ -77,7 +77,7 @@ figcaption {
 
 /*pullquote*/
 .quote {
-  font-family:'Montserrat', sans-serif;
+  font-family:'Lato', sans-serif;
   color:#F5CA44;
   font-size:3em;
   font-weight:700;
@@ -112,20 +112,26 @@ figcaption {
    padding: 15px 0 15px 0;
 }
 
+/**Graphic**/
+.graphic {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
 
 /*OLD CODE...needs to be edited*/
 .headline {
   font-size:3em;
   font-weight:700;
   text-align:center;
-  font-family:'Montserrat', sans-serif;
+  font-family:'Lato', sans-serif;
   color:#F5CA44
 }
 
 .byline {
   font-size:1em;
   text-transform:uppercase;
-  font-family:'Montserrat', sans-serif;
+  font-family:'Lato', sans-serif;
   text-align:center;
 }
 
@@ -134,15 +140,21 @@ figcaption {
   font-size:2em;
   font-weight:700;
   text-align:left;
-  font-family:'Montserrat', sans-serif;
+  font-family:'Lato', sans-serif;
 }
 
 p {
-  font-family: 'Georgia', serif;
+  font-family: Georgia, serif;
   line-height:180%;
 }
 
-
+.music {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
 
 #footer{
   background-color:#333a41;
@@ -152,6 +164,6 @@ p {
 
 .footer {
   color:#FFF;
-  font-family:'Montserrat', sans-serif;
+  font-family:'Lato', sans-serif;
   text-align:center;
 }
