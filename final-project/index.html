@@ -7,7 +7,7 @@
 
   <title>HTML Frame</title>
   <meta name="description" content="Merrill College of Journalism, UMD">
-  <meta name="author" content="Adam Marton">
+  <meta name="author" content="Maddie Osgood">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -17,77 +17,186 @@
 
   <!--google fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <ul class="nav-item-dropdown">
+    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="logo-title">BEYONCÉ</span>: THE MOVEMENT</span>
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="#move">The Movement</a>
+      <a class="dropdown-item" href="#perform">The Formation</a>
+      <a class="dropdown-item" href="#lemonade">The Album</a>
     </div>
-  </nav>
+  </ul>
+</nav>
   <!-- End NavBar -->
 
 
+<!--Main Header/Title-->
+  <div class="hero-container">
+    <img src="pray-you-catch-me.jpg" class="hero-image">
+      <div class="overlay">
+        <div class="hero-head">When life gives you <span class="logo-title"> lemons </span>
+          <div class="hero-sub">Beyoncé’s transition from entertainment to activism</div>
+        </div>
+      </div>
+  </div>
+<!--END Main Header/Title-->
+
 <div class="container">
 
-  <p class="headline">Headline goes here</p>
+  <p class="headline">Beyoncé: The Movement</p>
 
-  <p class="byline">Byline goes here</p>
+  <p class="byline">By: Maddie Osgood</p>
 
-  <p class="chapter">Chapter Headline</p>
+<!--INTRO-->
+  <p>Protests erupted around the world following the death of George Floyd.</p>
+
+  <p>Floyd was killed while in police custody on May 25, 2020 in Minneapolis, Minnesota. His death reignited the Black Lives Matter movement.</p>
+
+  <p>In response, Beyonce released the song “Black Parade” on Juneteenth. She will also be releasing “Black is King” on Disney+. The documentary is to empower the black community.</p>
+
+
+<!--PICTURE 1-->
+    <figure>
+        <img class="pic" src="georgefloyd.jpg">
+          <figcaption>An image of George Floyd on a sign at a peaceful protest on June 2, 2020 in Los Angeles, California. (Mario Tama / Getty Images)</figcaption>
+    </figure>
+
+<!--END picture 1-->
+
+
+<!--END intro-->
+
+
+<!--BLM Movement-->
+  <p class="chapter" id="move">The Movement</p>
+
+  <p>The Black Lives Matter movement was founded in 2013 in response to the acquittal of Trayvon Martin’s murderer. The organization’s “movement is to eradicate white supremacy and build local power to intervene in violence inflicted no Black communities by the state and vigilantes.”</p>
+
+<!--GRAPH-->
+    <div class="row">
+      <div class="col-6">
+
+        <iframe title="Police Homicide Rate" aria-label="Bar Chart" id="datawrapper-chart-uWyH9" src="https://datawrapper.dwcdn.net/uWyH9/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="213"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+      </div>
+        <div class="col-6">
+          <iframe title="Unarmed People Killed by Police" aria-label="Bar Chart" id="datawrapper-chart-cMyze" src="https://datawrapper.dwcdn.net/cMyze/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="213"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+          </script>
+        </div>
+    </div>
+<!--END graph-->
 
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+<!--END BLM Movement-->
+
+<!--Large protest photo divider-->
+
+
+
+<!--<div class="quote">
+  "There's definitely an evolution going on with Beyoncé,"
+  <p class="quote-attribution"> -Bakari Kitwana</p>
+</div>-->
+
+
+
+<!--Performance-->
+  <p class="chapter" id="perform">The Formation</p>
+  <p>Beyoncé rose to fame as the lead singer of ‘Destiny’s Child’ in the late 1990s. She recorded his first solo album ‘Dangerously in Love’ in 2003. Her solo career led to the disbandment of Destiny’s Child in 2006.</p>
+
+  <p>Her music was filled with narratives of relationship turmoil, romance, and love. This rhetoric and her girl band past gave her the reputation as a diva in her career.</p>
+
+  <p>In 2016, Beyoncé released “Formation” and its accompanying video on February 6. It was her first new single since 2014.</p>
+
+  <p> The music video portrays an antebellum South setting while representing the modern culture of African Americans. It referenced Black Lives Matter with walls covered with “Stop Shooting Us” graffiti, Beyoncé sitting on a sinking police car, and a young boy dancing in front of police in riot gear.</p>
+
+  <p>The video was shot in New Orleans and portrays the aftermath of Hurricane Katrina. Hurricane Katrina brought attention to the racial inequalities in New Orleans. Impoverished, African American communities, like the Lower Ninth Ward, struggled to rebuild. The setting of the music video amplifies the message of ‘Formation’.</p>
+
+  <p>She performed “Formation” live for the first time on February 7 at the NFL Super Bowl 50 halftime show. The performance did not stray from the songs message.</p>
+
+<!--PICTURE-->
+<div class="quote">
+  "There's definitely an evolution going on with Beyoncé,"
+  <p class="quote-attribution"> -Bakari Kitwana</p>
+</div>
+
+<!--END picture-->
+
+  <p>Her dancers wore all black outfits with black berets that resembled the Black Panther Party during the 1960s. Beyoncé’s costume resembled the costume Michael Jackson wore during the Super Bowl XXVII halftime show in 1993. References to Malcom X were shown during the performance, when the dancers created an ‘X’ formation on the field.</p>
+
+  <p>Bakari Kitwana, the CEO of ‘Rap Sessions’, voiced his opinion about Beyoncé’s performance in an interview for CNN in 2016.</p>
+
+  <p>"There's definitely an evolution going on with Beyoncé. It shows you how smart she is. She's tapping into the same consumer culture that she’s always tapped into but she’s doing it with some political overtones," Kitwana said.</p>
+
+  <p>Her performance sparked controversy in the media. The audience took to Twitter to express their thoughts on the halftime performance. Some viewers felt offended by the political message, while others felt empowered. </p>
+
+  <!--PICTURE-->
+    <figure>
+      <img class="pic" src="superbowl.jpg">
+      <figcaption>Beyoncé performs at the Pepsi Super Bowl 50 Halftime Show on February 7, 2016 in Santa Clara, California. (Christopher Polk/Getty Images)</figcaption>
+    </figure>
+  <!--END picture-->
+<!--
+<div class="row">
+    <div class="col-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/SDPITj1wlkg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/WDZJPJV__bQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+<!--END Performance-->
+
+<!--Lemonade-->
+
+  <p class="chapter" id="lemonade">The Album</p>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
   <figure>
-
-    <img src="beach.jpg" alt="beach" class="image">
-
-    <figcaption>Caption: Insert image or video or graphic or whatever above.</figcaption>
-
+  <img class="pic" src="lemonadealbum.jpg">
+  <figcaption>'Lemonade' album cover. (beyonce.com)</figcaption>
   </figure>
 
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <!--maps-->
+  <div class="row">
+    <div class="col-6">
+      <iframe title="The Formation World Tour: North America" aria-label="chart" id="datawrapper-chart-ud9Gu" src="https://datawrapper.dwcdn.net/ud9Gu/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="481"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+      </script>
+    </div>
+
+    <div class="col-6">
+        <iframe title="The Formation World Tour: Europe" aria-label="chart" id="datawrapper-chart-GJJH9" src="https://datawrapper.dwcdn.net/GJJH9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="481"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+      </script>
+  </div>
+</div>
+  <!--END maps-->
 
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <!--photo gallery-->
+
+
+<!--END Lemonade-->
+
 
 
 </div>
 
   <div id="footer">
   <footer>
-    <p class="footer">Footer text</p>
+    <p class="footer">&copy 2020 Maddie Osgood</p>
   </footer>
   </div>
 

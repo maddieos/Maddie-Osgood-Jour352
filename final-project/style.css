@@ -1,8 +1,125 @@
+/*media queries*/
+
+@media(max-width:650px) {
+  .hero-head{
+    font-size:1.5em;
+  }
+}
+
+/*topper*/
+
+.nav-item-dropdown {
+  color:#fff;
+  margin:0 auto;
+  font-weight:700;
+  text-transform:uppercase;
+}
+
+.navbar .dropdown-menu {
+  background-color: transparent !important;
+  text-align:center;
+  margin-left:45%;
+}
+
+.dropdown-item {
+  color:#F5CA44;
+}
+
+.logo-title {
+  color:#F5CA44;
+}
+
+
+/*splash area*/
+
+.hero-container {
+  position:relative;
+  text-align:center;
+  color:#FFF;
+}
+
+.hero-image{
+  width:100%;
+}
+
+.overlay {
+  position:absolute;
+  top:20%;
+  width:100%;
+  background:#000;
+  opacity:.7;
+}
+
+.hero-head {
+  font-family: 'Playfair Display', serif;
+  font-size:6em;
+  color:#FFF;
+  margin:0 auto;
+  padding-bottom:10px;
+}
+
+.hero-sub {
+  font-family:sans-serif;
+  font-size:.25em;
+}
+
+
+/*image caption*/
+figcaption {
+  color: #d3d3d3;
+  font-family:'Montserrat', sans-serif;
+  font-size:.75em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*pullquote*/
+.quote {
+  font-family:'Montserrat', sans-serif;
+  color:#F5CA44;
+  font-size:3em;
+  font-weight:700;
+  text-align:left;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #F5CA44;
+  border-bottom: 1px solid #F5CA44;
+  margin-top:20px;
+  margin-bottom:20px;
+
+}
+
+.quote-attribution {
+  font-family:'Playfair Display', serif;
+  font-size: 1em;
+  text-align:right;
+}
+
+/**PICTURE**/
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.pic {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   padding: 15px 0 15px 0;
+}
+
+
+/*OLD CODE...needs to be edited*/
 .headline {
   font-size:3em;
   font-weight:700;
   text-align:center;
   font-family:'Montserrat', sans-serif;
+  color:#F5CA44
 }
 
 .byline {
@@ -13,6 +130,7 @@
 }
 
 .chapter {
+  color:#F5CA44;
   font-size:2em;
   font-weight:700;
   text-align:left;
@@ -20,29 +138,14 @@
 }
 
 p {
-  font-family:Georgia, serif;
+  font-family: 'Georgia', serif;
   line-height:180%;
 }
 
-.image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 
-figcaption {
-  color: #d3d3d3;
-  font-family:'Montserrat', sans-serif;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-}
 
 #footer{
-  background-color:black;
+  background-color:#333a41;
   height:70px;
   padding:20px;
 }
